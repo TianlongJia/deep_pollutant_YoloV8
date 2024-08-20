@@ -1,46 +1,56 @@
-# Detection of floating plastic litter and water hyacinths using Yolov8 deep learning model
+# Detecting the interaction between microparticles and biomass in biological wastewater treatment process with Deep Learning method
 
 This repository contains the code used for the following publication:
 ```bash
   To do: XXXXXXXX
 ```
 
-The aim of this code is to use Yolov8 deep learning model to detect floating plastic litter and water hyacinths in the Saigon rivers, Vietnam.
+The aim of this repository is to use the YOLOv8 model to detect the interaction between microparticles and biomass in biological wastewater treatment process.
+
+![summary_figure](figures/Graphical_abstract.jpg)
+
 
 Acknowledgement:
 
-This project was inspired by the work of Ultralytics YOLOv8 (https://github.com/ultralytics/ultralytics). 
+This repository was inspired by the work of Ultralytics YOLOv8 (https://github.com/ultralytics/ultralytics). 
 Learn more about Ultralytics YOLOv8 at [documentation](https://docs.ultralytics.com/).
+
 
 ## Dataset
 
-"XXX" dataset is a new labelled dataset for detecting floating plastic litter and water hyacinths with computer vision. It includes 272 images and 9,352 annotated plastic litter items and water hyacinths (with bounding boxes). This dataset and further details can be found in:
+"XXX" dataset is a new labelled dataset for detecting the interaction between microparticles and biomass in biological wastewater treatment process. This dataset and further details can be found in:
 
 ```bash
   To do: XXXXXXXX
 ```
 
-## Requirements:
-- Windows 10
-- Python 3.9.12
-- Pytorch 2.0.0
+## Installation:
 
-(1) Install Pytorch 2.0.0 (CUDA 11.7) in Windows10
+Requirements:
+- Windows 10 or Linux
+- Python 3.8.16
+- Pytorch 1.13.1
+
+(1) Install Pytorch 1.13.1 (CUDA 11.7) (for Windows 10)
 
 ```bash
-conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
+
 (2) Install other packages
 
 ```bash
   pip install -r requirements.txt
 ```
 
+## Note
+This repository only includes the implementation of YOLOv8. The implementation of other six model architectures can be found [here](https://github.com/TianlongJia/deep_pollutant), including  (1) Mask RCNN (ResNet50), (2) Mask RCNN (ResNet101), (3) Cascade Mask RCNN(ResNet50), (4) Cascade Mask RCNN(ResNet101), (5) Yolact (ResNet50), and (6) Yolact (ResNet101). 
+
+
 ## Usage
 
--  `main_Train_.ipynb` is the code for training the Yolov8 model for object detection.
--  `main_Evaluate.ipynb` is the code for (1) evaluating model performances on test sets (e.g., output mAP50, precision and recall), (2) predicting objects in images and videos, and (3) outputing bounding box (bbox) information (e.g., the area of each bbox).
-
+-  `main_Train_IS.ipynb` is the code for training YOLOv8 model for object detection.
+-  `main_Evaluate_IS.ipynb` is the code for (1) evaluating model performances on test sets (e.g., outputing mAP50), and (2) predicting objects in images.
 
 ## Citing this dataste or paper
 
@@ -50,6 +60,13 @@ If you find this code and dataset are useful in your research or wish to refer t
 XXXXX
 ```
 
+## Authors
+
+- [@Tianlong Jia](https://github.com/TianlongJia)
+- [@Jing Yu](https://github.com/yyyuj)
+
+
 ## Contact
 
 ➡️ Tianlong Jia ([T.Jia@tudelft.nl](mailto:T.Jia@tudelft.nl))
+
