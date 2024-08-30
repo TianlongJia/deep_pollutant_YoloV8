@@ -18,7 +18,7 @@ Learn more about Ultralytics YOLOv8 at [documentation](https://docs.ultralytics.
 
 ## Dataset
 
-"XXX" dataset is a new labelled dataset for detecting the interaction between microparticles and biomass in biological wastewater treatment process. This dataset and further details can be found in:
+The TUD-IPB dataset is a new labelled dataset for detecting the interaction between microparticles and biomass in biological wastewater treatment process. This dataset and further details can be found in:
 
 ```bash
   https://doi.org/10.5281/zenodo.13374998
