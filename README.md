@@ -2,7 +2,9 @@
 
 This repository contains the code used for the following publication:
 ```bash
-  Jia, T., Peng, Z., Yu, J., Piaggio, A. L., Zhang, S., & de Kreuk, M. K. (2024). Detecting the interaction between microparticles and biomass in biological wastewater treatment process with Deep Learning method. Science of The Total Environment, 175813. doi: 10.1016/j.scitotenv.2024.175813
+Jia, T., Peng, Z., Yu, J., Piaggio, A. L., Zhang, S., & de Kreuk, M. K. (2024).
+Detecting the interaction between microparticles and biomass in biological wastewater treatment process with Deep Learning method.
+Science of The Total Environment, 175813. doi: 10.1016/j.scitotenv.2024.175813
 ```
 
 The aim of this repository is to use the YOLOv8 model to detect the interaction between microparticles and biomass in biological wastewater treatment process.
@@ -55,6 +57,12 @@ This repository only includes the implementation of YOLOv8. The implementation o
 ## Citing this dataste or paper
 
 If you find this code and dataset are useful in your research or wish to refer to the paper, please use the following BibTeX entry.
+
+```bash
+Jia, T., Peng, Z., Yu, J., Piaggio, A. L., Zhang, S., & de Kreuk, M. K. (2024).
+Detecting the interaction between microparticles and biomass in biological wastewater treatment process with Deep Learning method.
+Science of The Total Environment, 175813. doi: 10.1016/j.scitotenv.2024.175813
+```
 
 ```BibTeX
 @article{jia2024detecting,
